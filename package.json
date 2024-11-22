@@ -35,7 +35,7 @@
     "copy-fonts": "copyfiles -u 1 src/**/*.ttf lib/",
     "test-pdf": "ts-node-dev --respawn --transpile-only ./tests/pdf.test.ts",
     "test": "ts-node ./tests/pdf.test.ts",
-    "gitp": "npm run build && git push"
+    "gitp": "npm run build && git add . && git commit -m 'update'  && git push"
   },
   "dependencies": {
     "bwip-js": "4.2.0",
