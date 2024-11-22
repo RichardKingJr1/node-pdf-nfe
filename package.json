@@ -28,6 +28,7 @@
     "postversion": "git push && git push --tags && npm run publish",
     "clean-lib": "npx rimraf lib",
     "build": "npm run clean-lib && tsc -p tsconfig.json && npm run copy-fonts",
+    "prepare": "npm run build",
     "prettier": "prettier src/**/*.{js,ts} --write",
     "publish": "npm adduser && npm publish --access public",
     "type": "tsc --project tsconfig.json",
