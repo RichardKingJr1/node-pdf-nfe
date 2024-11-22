@@ -11,8 +11,7 @@
   "files": [
     "lib",
     "package.json",
-    "README.md",
-    "tsconfig.json"
+    "README.md"
   ],
   "keywords": [
     "NFe",
