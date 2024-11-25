@@ -1,9 +1,5 @@
-import bwipjs from 'bwip-js';
-import { formatCnpj, formatKey, formatPhone, formatStateRegistration } from '../../../../domain/use-cases/utils';
-import { formatDateTime } from '../../../../domain/use-cases/utils/format-date-time';
-import { formatProtocol } from '../../../../domain/use-cases/utils/format-protocol';
+import { formatPhone } from '../../../../domain/use-cases/utils';
 import type { GeneratePdf } from '../../../../types';
-import { campo } from './campo';
 import { DEFAULT_NFE } from './default';
 import { italico } from './italico';
 import { linhaHorizontal } from './linha-horizontal';
@@ -243,7 +239,7 @@ export async function getDadosEmitente({
     margemEsquerda,
     margemTopo
   });
-  const options = {
+  /* const options = {
     bcid: 'code128',
     text: protNFe.infProt.chNFe,
     height: 15,
@@ -332,5 +328,5 @@ export async function getDadosEmitente({
     doc,
     margemEsquerda,
     margemTopo
-  });
+  }); */
 }

@@ -1,0 +1,142 @@
+<NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+    <infNFe Id="NFe35241114402579000123550010000003241238026092" versao="4.00">
+        <ide>
+            <cUF>35</cUF>
+            <cNF>23802609</cNF>
+            <natOp>Venda de energia eletrica para estabelecimento prestador</natOp>
+            <mod>55</mod>
+            <serie>1</serie>
+            <nNF>324</nNF>
+            <dhEmi>2024-11-01T00:00:00-03:00</dhEmi>
+            <dhSaiEnt>2024-11-01T17:16:30-03:00</dhSaiEnt>
+            <tpNF>1</tpNF>
+            <idDest>1</idDest>
+            <cMunFG>3550308</cMunFG>
+            <tpImp>1</tpImp>
+            <tpEmis>1</tpEmis>
+            <cDV>2</cDV>
+            <tpAmb>2</tpAmb>
+            <finNFe>1</finNFe>
+            <indFinal>1</indFinal>
+            <indPres>0</indPres>
+            <procEmi>0</procEmi>
+            <verProc>12.1.2410.107</verProc>
+        </ide>
+        <emit>
+            <CNPJ>14402579000123</CNPJ>
+            <xNome>ACE COMERCIALIZADORA LTDA</xNome>
+            <xFant>ACE - MATRIZ SP</xFant>
+            <enderEmit>
+                <xLgr>RUA - GOMES DE CARVALHO</xLgr>
+                <nro>1996</nro>
+                <xCpl>ANDAR 16</xCpl>
+                <xBairro>VILA OLIMPIA</xBairro>
+                <cMun>3550308</cMun>
+                <xMun>SAO PAULO</xMun>
+                <UF>SP</UF>
+                <CEP>04547006</CEP>
+                <cPais>1058</cPais>
+                <xPais>Brasil</xPais>
+                <fone>1145712400</fone>
+            </enderEmit>
+            <IE>146571562110</IE>
+            <IM>43895336</IM>
+            <CNAE>3513100</CNAE>
+            <CRT>3</CRT>
+        </emit>
+        <dest>
+            <CNPJ>50134417000115</CNPJ>
+            <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+            <enderDest>
+                <xLgr>AVENIDA - ANTONIO SECUNDINO DE SAO JOSE</xLgr>
+                <nro>71</nro>
+                <xBairro>CENTRO EMPRESARIAL MARIO DEDINI OMETTO</xBairro>
+                <cMun>3546306</cMun>
+                <xMun>SANTA CRUZ DAS PALMEIRAS</xMun>
+                <UF>SP</UF>
+                <CEP>13653000</CEP>
+                <cPais>1058</cPais>
+                <xPais>Brasil</xPais>
+            </enderDest>
+            <indIEDest>1</indIEDest>
+            <IE>611044589113</IE>
+            <email>sistemas@alupar.com.br</email>
+        </dest>
+        <det nItem="1">
+            <prod>
+                <cProd>09001001000020</cProd>
+                <cEAN>SEM GTIN</cEAN>
+                <xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd>
+                <NCM>27160000</NCM>
+                <CFOP>5254</CFOP>
+                <uCom>MWh</uCom>
+                <qCom>1.0000</qCom>
+                <vUnCom>300.00</vUnCom>
+                <vProd>300.00</vProd>
+                <cEANTrib>SEM GTIN</cEANTrib>
+                <uTrib>MWh</uTrib>
+                <qTrib>1.0000</qTrib>
+                <vUnTrib>300.00</vUnTrib>
+                <vDesc>10.00</vDesc>
+                <indTot>1</indTot>
+            </prod>
+            <imposto>
+                <vTotTrib>0.00</vTotTrib>
+                <ICMS>
+                    <ICMS40>
+                        <orig>0</orig>
+                        <CST>40</CST>
+                    </ICMS40>
+                </ICMS>
+                <PIS>
+                    <PISAliq>
+                        <CST>01</CST>
+                        <vBC>290.00</vBC>
+                        <pPIS>1.65</pPIS>
+                        <vPIS>4.79</vPIS>
+                    </PISAliq>
+                </PIS>
+                <COFINS>
+                    <COFINSAliq>
+                        <CST>01</CST>
+                        <vBC>290.00</vBC>
+                        <pCOFINS>7.60</pCOFINS>
+                        <vCOFINS>22.04</vCOFINS>
+                    </COFINSAliq>
+                </COFINS>
+            </imposto>
+        </det>
+        <total>
+            <ICMSTot>
+                <vProd>300.00</vProd>
+                <vDesc>10.00</vDesc>
+                <vNF>290.00</vNF>
+            </ICMSTot>
+        </total>
+        <transp>
+            <modFrete>0</modFrete>
+        </transp>
+        <cobr>
+            <fat>
+                <nFat>324</nFat>
+                <vOrig>300.00</vOrig>
+                <vDesc>10.00</vDesc>
+                <vLiq>290.00</vLiq>
+            </fat>
+            <dup>
+                <nDup>001</nDup>
+                <dVenc>2024-11-15</dVenc>
+                <vDup>290.00</vDup>
+            </dup>
+        </cobr>
+        <pag>
+            <detPag>
+                <tPag>01</tPag>
+                <vPag>290.00</vPag>
+            </detPag>
+        </pag>
+        <infAdic>
+            <infCpl>ICMS SOBRE RESPONSABILIDADE DO RECOLHIMENTO PARA A DISTRIBUIDORA LOCALIZADA NO ESTADO DO RJ.</infCpl>
+        </infAdic>
+    </infNFe>
+</NFe>

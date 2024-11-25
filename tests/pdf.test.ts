@@ -4,7 +4,7 @@ import { gerarPDF } from '../src';
 
 async function init(): Promise<void> {
   const pathDoArquivoPdf = path.join(process.cwd(), 'danfe.pdf');
-  const pathDoArquivoXml = path.join(__dirname, 'arquivos', 'arquivo-xml.xml');
+  const pathDoArquivoXml = path.join(__dirname, 'arquivos', 'nfe.xml');
   const pathLogo = path.join(__dirname, 'arquivos', 'logo.png');
   const xmlNFe = fs.readFileSync(pathDoArquivoXml).toString();
 
